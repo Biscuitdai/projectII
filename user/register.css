@@ -1,0 +1,51 @@
+
+.container {
+    text-align: center;
+}
+
+.register-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: inline-block;
+}
+
+.register-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.register-submit {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-submit:hover {
+    background-color: #2186c3;
+}
+
+.SignUp-link p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.SignUp-link a {
+    color: #3498db;
+}

@@ -1,0 +1,33 @@
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.edit-delete-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.edit-delete-table th, .edit-delete-table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+.edit-delete-table th {
+    background-color: #f2f2f2;
+}
+
+.edit-delete-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.edit-delete-table tr:hover {
+    background-color: #e6e6e6;
+}
+
+.edit-delete-table img {
+    max-width: 50px;
+    max-height: 50px;
+}

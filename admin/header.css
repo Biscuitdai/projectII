@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.headerli{
+    list-style: none;
+}
+
+.nav{
+    border: 1px solid black;
+    background-color:rgb(183, 220, 253);
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-a{
+    text-decoration: none;
+    color: black;
+}
